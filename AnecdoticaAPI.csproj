@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Version>1.0.0</Version>
+        <Authors>DamirNabiullin</Authors>
+        <Company>Damir</Company>
+        <PackageId>250AE056-1596-469D-9B0C-9F06BC383115</PackageId>
+        <Description>Апи клиент для удобного взаимодействия с api анекдотов http://anecdotica.ru/help/api.html#tid</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/backdorJ/anecdotica-api-client</RepositoryUrl>
+        <PackageReadmeFile />
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <None Update="Readme.md">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="img.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
