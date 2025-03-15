@@ -8,7 +8,7 @@
 
 ```sh 
 
-dotnet add package AnecdoticaAPI
+dotnet add package anecdotica-api-client
 ```
 
 ## 🌠 Использование
